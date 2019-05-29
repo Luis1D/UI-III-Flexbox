@@ -1,5 +1,8 @@
 /* STYLING FOR SERVICES PAGE */
 
+.services-header-img {
+    max-width: 100%;
+}
 .services-title{
     font-size: 1.5rem;
     margin: 1.5rem 0 1.5rem 0;
@@ -26,6 +29,13 @@
     border: 1px solid #000;
     border-radius: .25rem;
 }
+.card-btn:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .5s ease;
+}
 
 /* HR LINES */
 .first-hr {
@@ -36,7 +46,7 @@
     border: 1px solid #000;
 }
 
-/** FOOTER **/
+/** FACTS **/
 .some-facts {
     padding: 0;
     display: flex;
@@ -54,6 +64,11 @@ ul {
 li {
     margin-bottom: 1rem;
 }
+.services-info-img {
+    max-width: 100%;
+}
+
+/** FOOTER **/
 footer {
     width: 100%;
     text-align: center;
